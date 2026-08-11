@@ -1,0 +1,894 @@
+2026-03-22 00:00:02.287 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 15592 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-03-22 00:00:02.290 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-22 00:00:03.672 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-22 00:00:03.685 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-22 00:00:03.688 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-22 00:00:03.689 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-22 00:00:03.762 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1419 ms
+2026-03-22 00:00:04.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-22 00:00:04.675 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-22 00:00:04.686 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.747 seconds (process running for 3.587)
+2026-03-22 00:00:22.754 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-22 00:00:22.755 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-22 00:00:22.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-22 00:00:22.895 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-22 00:00:23.267 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4721e541
+2026-03-22 00:00:23.270 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-22 00:00:23.419 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTA4ODIzLCJleHAiOjE3NzQxOTUyMjN9.6SH8VuqULcRO9AKR2B7JYenu1A8A419VMiL3A41GYyc)
+2026-03-22 00:03:37.580 [http-nio-8080-exec-5] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTA5MDE3LCJleHAiOjE3NzQxOTU0MTd9.jSRjxXhxjdaOFcxD243SA_kPY8t15I5gBTxo_wGTt5I)
+2026-03-22 00:05:16.615 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 27716 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-03-22 00:05:16.618 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-22 00:05:17.739 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-22 00:05:17.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-22 00:05:17.752 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-22 00:05:17.753 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-22 00:05:17.806 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1138 ms
+2026-03-22 00:05:18.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-22 00:05:18.643 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-22 00:05:18.651 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.375 seconds (process running for 2.971)
+2026-03-22 00:05:36.988 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-22 00:05:36.989 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-22 00:05:36.991 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-22 00:05:37.014 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:05:37.014 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:32:14.050 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 00:32:14.050 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 00:32:14.051 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 00:32:14.051 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 00:32:14.082 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 00:32:14.091 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 00:32:14.109 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-22 00:32:14.394 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b4a3faf
+2026-03-22 00:32:14.397 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-22 00:45:27.631 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:45:29.602 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:45:29.781 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:11.970 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:13.199 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:13.650 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:13.973 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:14.119 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:14.294 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:34.700 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:34.700 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:46:44.327 [http-nio-8080-exec-9] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTExNjA0LCJleHAiOjE3NzQxOTgwMDR9.6rqrmUQaV9dnASX6IVu1v2e8cHEpsy7SwELGIYyV0Rk)
+2026-03-22 00:46:52.153 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:47:56.680 [http-nio-8080-exec-8] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTExNjc2LCJleHAiOjE3NzQxOTgwNzZ9.GEFQsJ5XP-3Jp-IHijkRmaW_ZBUGlKiEvl6h4HWK1Nw)
+2026-03-22 00:48:32.453 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:48:32.453 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:49:27.462 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:53:38.908 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEyMDE4LCJleHAiOjE3NzQxOTg0MTh9.VZWa0QU6sl5ZMtMbA7yth6GK2dudLBOI3qPwdNO08fs)
+2026-03-22 00:54:54.940 [http-nio-8080-exec-4] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEyMDk0LCJleHAiOjE3NzQxOTg0OTR9._pM0sL55v4dBCv5XpwYGSnlBfYYHvMFGsQhNmpTlZFs)
+2026-03-22 00:55:23.194 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEyMTIzLCJleHAiOjE3NzQxOTg1MjN9.aFbPeAcldUfnksqcBMglRAgX_tF8JN2p3ztzl0AfD9w)
+2026-03-22 00:58:23.435 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:58:23.435 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 00:58:30.225 [http-nio-8080-exec-7] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEyMzEwLCJleHAiOjE3NzQxOTg3MTB9.E4yRNFD1dIdd762F9qXX6Mlq85PbwkKDh5V492dl0Is)
+2026-03-22 01:05:34.062 [http-nio-8080-exec-8] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEyNzM0LCJleHAiOjE3NzQxOTkxMzR9.UK4WYZ042p7QTSM9-aKddTYCKaFjYdWWEN5nsmBdwHQ)
+2026-03-22 01:21:26.470 [http-nio-8080-exec-6] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEzNjg2LCJleHAiOjE3NzQyMDAwODZ9.U2pFEo18Or_L0nrKLUw55eN07fTO7XGJ7EjzPwTDknY)
+2026-03-22 01:21:43.234 [http-nio-8080-exec-10] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTEzNzAzLCJleHAiOjE3NzQyMDAxMDN9.qSal5bpK3CSFWQl2mZ6NMCXrZz8Q63nfIqMmZOikV6I)
+2026-03-22 16:56:12.795 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 16800 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-03-22 16:56:12.800 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-22 16:56:14.712 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-22 16:56:14.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-22 16:56:14.732 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-22 16:56:14.733 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-22 16:56:14.866 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1984 ms
+2026-03-22 16:56:16.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-22 16:56:16.272 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-22 16:56:16.280 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 3.99 seconds (process running for 5.078)
+2026-03-22 16:56:21.282 [http-nio-8080-exec-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-22 16:56:21.284 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-22 16:56:21.286 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-22 16:56:21.312 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 16:56:21.312 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 16:56:27.994 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-22 16:56:28.418 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62f7f088
+2026-03-22 16:56:28.420 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-22 16:56:28.547 [http-nio-8080-exec-4] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTY5Nzg4LCJleHAiOjE3NzQyNTYxODh9.BMAIaD98tmtF2eX-DEytTS_GL-nIQkT8efWpOqucRAo)
+2026-03-22 16:56:30.344 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 16:56:30.344 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 16:56:30.349 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 16:56:30.349 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 16:56:30.366 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 17:22:08.501 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 17:22:10.451 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 17:22:15.449 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzc0MTcxMzM1LCJleHAiOjE3NzQyNTc3MzV9.CWV2YufxSODprAKTvCmzYpDHNBDzBSxDYGL-nNOq5J8)
+2026-03-22 17:22:18.446 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 17:22:18.446 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 17:22:18.452 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 17:22:18.904 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 17:22:18.905 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 17:22:18.905 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 17:22:18.905 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 17:22:18.906 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 17:22:18.906 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 17:22:27.302 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 17:22:27.303 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 17:22:27.303 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 18:09:17.175 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:09:17.177 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:09:17.181 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:10:03.230 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:10:03.231 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:10:03.253 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.pojo.Result com.example.controller.ClazzsController.queryPagination(com.example.pojo.ClazzsQueryParam) with 4 errors: [Field error in object 'clazzsQueryParam' on field 'begin': rejected value [undefined]; codes [typeMismatch.clazzsQueryParam.begin,typeMismatch.begin,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clazzsQueryParam.begin,begin]; arguments []; default message [begin]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'begin'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] [Field error in object 'clazzsQueryParam' on field 'end': rejected value [undefined]; codes [typeMismatch.clazzsQueryParam.end,typeMismatch.end,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clazzsQueryParam.end,end]; arguments []; default message [end]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'end'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] [Field error in object 'clazzsQueryParam' on field 'page': rejected value [undefined]; codes [typeMismatch.clazzsQueryParam.page,typeMismatch.page,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clazzsQueryParam.page,page]; arguments []; default message [page]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'page'; For input string: "undefined"]] [Field error in object 'clazzsQueryParam' on field 'pageSize': rejected value [undefined]; codes [typeMismatch.clazzsQueryParam.pageSize,typeMismatch.pageSize,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clazzsQueryParam.pageSize,pageSize]; arguments []; default message [pageSize]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'pageSize'; For input string: "undefined"]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:157)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-22 18:10:25.617 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:10:25.617 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:10:25.618 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:10:41.354 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:10:41.355 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:10:41.357 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=JavaEE就业1633期, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:10:48.109 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:10:48.110 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:10:48.111 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:12:16.845 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:12:16.846 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:12:16.847 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:16:44.086 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:16:44.086 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:16:44.088 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:18:40.563 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:18:40.565 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:18:40.566 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:18:45.737 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:18:45.739 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:18:45.739 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-03-22 18:19:04.738 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:04.740 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:04.740 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:19:06.525 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:06.525 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:06.525 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-03-22 18:19:07.373 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:07.377 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:07.379 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=2, pageSize=5)
+2026-03-22 18:19:08.596 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:08.596 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:08.597 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-03-22 18:19:09.478 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:09.478 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:09.479 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=2, pageSize=5)
+2026-03-22 18:19:10.396 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:10.396 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:10.397 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-03-22 18:19:16.070 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:16.071 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:16.072 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=2, pageSize=5)
+2026-03-22 18:19:18.652 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:18.652 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:18.653 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-03-22 18:19:21.670 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:19:21.670 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:19:21.670 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:22:18.511 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:22:18.515 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:22:18.516 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=前端就业90期, begin=2024-01-16, end=2024-01-29, page=1, pageSize=10)
+2026-03-22 18:22:47.985 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:22:47.986 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:22:47.987 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:22:53.809 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:22:53.809 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:22:53.809 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=JavaEE就业1633期, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:22:58.889 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:22:58.889 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:22:58.892 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:42:16.231 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:42:16.232 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:42:16.234 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:43:24.119 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:43:24.119 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:43:24.120 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:43:54.978 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:43:54.980 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:43:54.987 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 18:44:58.281 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:44:58.281 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:44:58.282 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:52:08.418 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:52:08.419 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:52:08.421 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:52:18.566 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:52:18.567 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:52:18.568 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:57:36.028 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:57:36.029 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:57:36.030 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 18:57:58.372 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 18:57:58.373 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 18:57:58.374 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:01:02.573 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:01:02.574 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:01:02.576 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:02:08.505 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:02:08.505 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:02:08.507 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:05:09.149 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:05:09.152 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:05:09.153 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:05:34.671 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:05:34.671 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:05:34.672 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:05:52.007 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:05:52.007 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:05:52.007 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:06:08.257 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:06:08.258 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:06:08.259 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:07:29.933 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:07:29.933 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:07:29.936 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:08:09.507 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:08:09.507 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:08:09.509 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:09:31.855 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:09:31.857 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:09:31.858 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:10:18.724 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:10:18.724 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:10:18.725 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:10:39.775 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:10:39.775 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:10:39.776 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:10:59.740 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:10:59.742 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:10:59.743 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:11:22.203 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:11:22.205 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:11:22.205 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:13:12.518 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:13:12.518 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:13:12.519 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:13:22.780 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:13:22.780 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:13:22.782 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:15:10.342 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:15:10.343 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:15:10.344 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:15:30.221 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:15:30.223 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:15:30.225 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:16:12.072 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:16:12.073 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:16:12.075 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:16:20.877 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:16:20.877 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:16:20.879 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:16:38.308 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:16:38.309 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:16:38.310 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:16:51.211 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:16:51.212 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:16:51.213 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:17:02.511 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:17:02.511 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:17:02.511 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:17:02.511 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:17:02.512 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:17:09.877 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:17:09.877 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:17:09.878 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:17:29.510 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:17:29.511 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:17:29.511 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:17:39.779 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:17:39.779 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:17:39.780 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:18:00.576 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:18:00.577 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:18:00.578 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:18:46.166 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:18:46.166 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:18:46.167 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:19:47.051 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:19:47.051 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:19:47.052 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:20:18.988 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:20:18.989 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:20:18.989 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:20:35.454 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:20:35.454 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:20:35.455 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:21:11.181 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:21:11.181 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:21:11.182 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:21:30.313 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:21:30.313 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:21:30.314 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:21:41.483 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:21:41.483 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:21:41.485 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:21:56.358 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:21:56.359 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:21:56.359 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:22:04.299 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:22:04.299 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:22:04.301 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:22:57.755 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:22:57.756 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:22:57.757 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:23:09.684 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:23:09.684 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:23:09.685 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:23:21.483 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:23:21.483 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:23:21.484 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:31:16.700 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-22 19:31:16.700 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-22 19:31:16.702 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:36:16.909 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-03-22 19:37:15.032 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 25592 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-03-22 19:37:15.037 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-22 19:37:16.776 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-22 19:37:16.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-22 19:37:16.792 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-22 19:37:16.793 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-22 19:37:16.952 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1817 ms
+2026-03-22 19:37:18.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-22 19:37:18.242 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-22 19:37:18.250 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 3.641 seconds (process running for 4.594)
+2026-03-22 19:37:20.459 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-22 19:37:20.460 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-22 19:37:20.463 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-22 19:37:20.534 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-22 19:37:20.843 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16e5cc83
+2026-03-22 19:37:20.847 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-22 19:50:03.153 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 19:59:49.922 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:10:28.643 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:11:56.179 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:12:12.673 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:12:23.431 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:17:52.344 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:19:42.486 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:20:06.017 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:25:30.437 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:26:24.969 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:26:37.687 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:26:54.445 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:27:10.160 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:29:10.028 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:29:21.182 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:29:36.965 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:31:39.782 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:32:07.849 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:32:56.722 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:33:23.144 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:43:05.039 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:44:22.371 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 20:45:12.367 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 21:28:05.951 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 21:51:47.356 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 21:52:16.572 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 21:52:16.575 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 21:52:18.549 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 21:52:20.221 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 21:52:20.221 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 21:52:37.438 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 22:00:18.584 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 22:00:18.584 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 22:00:20.629 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:00:42.512 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 22:00:42.514 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 22:01:05.125 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:02:10.683 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:04:41.536 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:05:04.927 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:05:20.035 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:05:44.229 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:08:26.750 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:11:15.739 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController-根据id: 1查询员工信息
+2026-03-22 22:11:22.309 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:11:23.322 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:26:26.931 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=杀杀杀搜索, room=714, beginDate=2026-03-01, endDate=2026-03-10, masterId=5, subject=5, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:26:27.017 [http-nio-8080-exec-8] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:26:26.965928500, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"杀杀杀搜索","room":"714","beginDate":[2026,3,1],"endDate":[2026,3,10],"masterId":5,"subject":5,"createTime":[2026,3,22,22,26,26,935910700],"updateTime":[2026,3,22,22,26,26,935910700],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=33, operateEmpName=null)
+2026-03-22 22:26:27.041 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:28:39.670 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:30:54.296 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=搜索杀杀杀, room=456, beginDate=2026-03-02, endDate=2026-03-03, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:30:54.312 [http-nio-8080-exec-1] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:30:54.312592900, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"搜索杀杀杀","room":"456","beginDate":[2026,3,2],"endDate":[2026,3,3],"masterId":5,"subject":4,"createTime":[2026,3,22,22,30,54,297652000],"updateTime":[2026,3,22,22,30,54,297652000],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=16, operateEmpName=null)
+2026-03-22 22:31:23.422 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=搜索杀杀杀, room=456, beginDate=2026-03-02, endDate=2026-03-03, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:31:23.579 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+### The error may exist in com/example/mapper/ClazzsMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO tlias.clazz         (name,room,begin_date,end_date,master_id,subject,create_time,update_time)         VALUES         (?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+; Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.addClass(Unknown Source)
+	at com.example.service.Impl.ClazzsServiceImpl.addClass(ClazzsServiceImpl.java:50)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$0.addClass(<generated>)
+	at com.example.controller.ClazzsController.addClass(ClazzsController.java:66)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.aop.OperateLogAspect.recordLog(OperateLogAspect.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:707)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$0.addClass(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy111.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy109.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 76 common frames omitted
+2026-03-22 22:31:27.604 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=搜索杀杀杀, room=456, beginDate=2026-03-02, endDate=2026-03-03, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:31:27.614 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+### The error may exist in com/example/mapper/ClazzsMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO tlias.clazz         (name,room,begin_date,end_date,master_id,subject,create_time,update_time)         VALUES         (?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+; Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.addClass(Unknown Source)
+	at com.example.service.Impl.ClazzsServiceImpl.addClass(ClazzsServiceImpl.java:50)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$0.addClass(<generated>)
+	at com.example.controller.ClazzsController.addClass(ClazzsController.java:66)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.aop.OperateLogAspect.recordLog(OperateLogAspect.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:707)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$0.addClass(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '搜索杀杀杀' for key 'clazz.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy111.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy109.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 76 common frames omitted
+2026-03-22 22:31:36.216 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=搜索杀杀杀123, room=456, beginDate=2026-03-02, endDate=2026-03-03, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:31:36.222 [http-nio-8080-exec-7] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:31:36.222213300, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"搜索杀杀杀123","room":"456","beginDate":[2026,3,2],"endDate":[2026,3,3],"masterId":5,"subject":4,"createTime":[2026,3,22,22,31,36,216216800],"updateTime":[2026,3,22,22,31,36,216216800],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=6, operateEmpName=null)
+2026-03-22 22:31:39.182 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:31:53.611 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=46467, room=425, beginDate=2026-02-23, endDate=2026-03-10, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:31:53.617 [http-nio-8080-exec-8] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:31:53.617446500, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"46467","room":"425","beginDate":[2026,2,23],"endDate":[2026,3,10],"masterId":5,"subject":4,"createTime":[2026,3,22,22,31,53,611281500],"updateTime":[2026,3,22,22,31,53,611281500],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=6, operateEmpName=null)
+2026-03-22 22:32:02.118 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=46467, room=425, beginDate=2026-02-23, endDate=2026-03-10, masterId=5, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:32:02.123 [http-nio-8080-exec-9] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '46467' for key 'clazz.name'
+### The error may exist in com/example/mapper/ClazzsMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO tlias.clazz         (name,room,begin_date,end_date,master_id,subject,create_time,update_time)         VALUES         (?,?,?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '46467' for key 'clazz.name'
+; Duplicate entry '46467' for key 'clazz.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.addClass(Unknown Source)
+	at com.example.service.Impl.ClazzsServiceImpl.addClass(ClazzsServiceImpl.java:50)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.example.service.Impl.ClazzsServiceImpl$$SpringCGLIB$$0.addClass(<generated>)
+	at com.example.controller.ClazzsController.addClass(ClazzsController.java:66)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$FastClass$$0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:231)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.aop.OperateLogAspect.recordLog(OperateLogAspect.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:707)
+	at com.example.controller.ClazzsController$$SpringCGLIB$$0.addClass(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '46467' for key 'clazz.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy111.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy109.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 76 common frames omitted
+2026-03-22 22:32:08.095 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:32:24.919 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=46446, room=467, beginDate=2026-03-04, endDate=2026-03-10, masterId=6, subject=6, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:32:24.935 [http-nio-8080-exec-1] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:32:24.935044600, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"46446","room":"467","beginDate":[2026,3,4],"endDate":[2026,3,10],"masterId":6,"subject":6,"createTime":[2026,3,22,22,32,24,919933500],"updateTime":[2026,3,22,22,32,24,919933500],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=16, operateEmpName=null)
+2026-03-22 22:33:04.246 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:33:42.538 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=加哦就立即, room=789, beginDate=2026-03-01, endDate=2026-03-18, masterId=6, subject=5, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:33:42.544 [http-nio-8080-exec-7] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:33:42.544800100, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"加哦就立即","room":"789","beginDate":[2026,3,1],"endDate":[2026,3,18],"masterId":6,"subject":5,"createTime":[2026,3,22,22,33,42,538257900],"updateTime":[2026,3,22,22,33,42,538257900],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=6, operateEmpName=null)
+2026-03-22 22:33:42.566 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:33:57.006 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:33:59.550 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:34:49.765 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:35:14.206 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=我看id是, room=754, beginDate=2024-03-03, endDate=2026-03-12, masterId=6, subject=4, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:35:14.212 [http-nio-8080-exec-4] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:35:14.212613300, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"我看id是","room":"754","beginDate":[2024,3,3],"endDate":[2026,3,12],"masterId":6,"subject":4,"createTime":[2026,3,22,22,35,14,207235900],"updateTime":[2026,3,22,22,35,14,207235900],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=6, operateEmpName=null)
+2026-03-22 22:35:14.233 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:35:19.104 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:36:09.476 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:36:31.207 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-添加班级: Clazz(id=null, name=我我我是, room=789, beginDate=2026-03-09, endDate=2026-03-25, masterId=5, subject=6, createTime=null, updateTime=null, masterName=null, status=null)
+2026-03-22 22:36:31.216 [http-nio-8080-exec-10] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:36:31.215061300, className=com.example.controller.ClazzsController, methodName=addClass, methodParams=[{"id":null,"name":"我我我是","room":"789","beginDate":[2026,3,9],"endDate":[2026,3,25],"masterId":5,"subject":6,"createTime":[2026,3,22,22,36,31,208407700],"updateTime":[2026,3,22,22,36,31,208407700],"masterName":null,"status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=8, operateEmpName=null)
+2026-03-22 22:36:31.235 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:36:55.227 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:43:20.612 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:43:40.672 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:45:42.945 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:45:50.111 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:49:34.966 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633期, room=219, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-16T00:26:58, masterName=林冲, status=null)
+2026-03-22 22:49:34.981 [http-nio-8080-exec-8] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:49:34.981310100, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633期","room":"219","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,22,22,49,34,968038200],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=15, operateEmpName=null)
+2026-03-22 22:49:36.829 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:49:37.684 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:49:38.643 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633期, room=219, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-22T22:49:35, masterName=林冲, status=null)
+2026-03-22 22:49:38.650 [http-nio-8080-exec-5] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:49:38.650227900, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633期","room":"219","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,22,22,49,38,644622400],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=7, operateEmpName=null)
+2026-03-22 22:49:38.669 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:49:40.954 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:49:43.670 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633, room=219, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-22T22:49:39, masterName=林冲, status=null)
+2026-03-22 22:49:43.680 [http-nio-8080-exec-7] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:49:43.680379500, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633","room":"219","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,22,22,49,43,670991600],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=10, operateEmpName=null)
+2026-03-22 22:49:43.700 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:49:45.885 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:49:51.041 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633, room=218, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-22T22:49:44, masterName=林冲, status=null)
+2026-03-22 22:49:51.058 [http-nio-8080-exec-8] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:49:51.058031500, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633","room":"218","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,22,22,49,51,41128700],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=17, operateEmpName=null)
+2026-03-22 22:49:51.078 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:49:53.641 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:49:55.965 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633, room=218, beginDate=2023-04-30, endDate=2023-06-29, masterId=9, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-22T22:49:51, masterName=林冲, status=null)
+2026-03-22 22:49:55.973 [http-nio-8080-exec-1] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:49:55.973339800, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633","room":"218","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":9,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,22,22,49,55,966495100],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=8, operateEmpName=null)
+2026-03-22 22:49:55.992 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:54:20.617 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:54:23.437 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:55:03.828 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:55:05.967 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=100)
+2026-03-22 22:55:33.653 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:55:35.605 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:55:39.852 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-删除的班级id: 26
+2026-03-22 22:55:39.863 [http-nio-8080-exec-5] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:55:39.861715800, className=com.example.controller.ClazzsController, methodName=deleteClassById, methodParams=[26], returnValue={"code":1,"msg":"success","data":null}, costTime=9, operateEmpName=null)
+2026-03-22 22:55:39.884 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:55:51.588 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-删除的班级id: 25
+2026-03-22 22:55:51.604 [http-nio-8080-exec-3] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=null, operateTime=2026-03-22T22:55:51.603213200, className=com.example.controller.ClazzsController, methodName=deleteClassById, methodParams=[25], returnValue={"code":1,"msg":"success","data":null}, costTime=15, operateEmpName=null)
+2026-03-22 22:55:51.627 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:55:56.926 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=50)
+2026-03-22 22:56:17.904 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:56:19.158 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:56:31.270 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:59:25.607 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 22:59:29.453 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:59:34.561 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 22:59:43.810 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-根据id: 2查询
+2026-03-22 23:12:20.368 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:12:23.240 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:14:38.351 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:14:39.678 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:14:51.459 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:14:52.027 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:15:04.622 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:15:06.122 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:15:34.135 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:15:36.970 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:35:49.431 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:35:49.432 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:35:52.021 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:35:52.707 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:35:52.707 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:35:54.131 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:36:18.949 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController-请求参数: StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2026-03-22 23:40:35.428 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:40:37.566 [http-nio-8080-exec-5] INFO  com.example.controller.StudentController-请求参数: StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2026-03-22 23:57:16.696 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:57:19.706 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:57:29.388 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:57:29.389 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:57:43.310 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController-请求参数: StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2026-03-22 23:57:46.281 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:57:47.456 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:57:48.460 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:57:48.461 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:57:56.544 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:57:56.546 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:58:00.742 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:02.012 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:58:03.494 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:03.913 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:03.913 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:58:05.222 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController-根据id: 1查询员工信息
+2026-03-22 23:58:11.398 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:12.346 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:12.349 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:58:12.957 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-22 23:58:14.571 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-22 23:58:22.384 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:22.923 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:58:22.923 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:58:53.716 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController-根据id: 1查询员工信息
+2026-03-22 23:59:12.679 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:59:12.680 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-22 23:59:19.514 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-22 23:59:43.080 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController-请求参数: StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)

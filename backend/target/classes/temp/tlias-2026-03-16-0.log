@@ -1,0 +1,348 @@
+2026-03-16 00:13:10.188 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 23620 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src)
+2026-03-16 00:13:10.191 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-16 00:13:11.514 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-16 00:13:11.528 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:13:11.531 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-16 00:13:11.531 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 00:13:11.584 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1329 ms
+2026-03-16 00:13:12.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:13:12.475 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 00:13:12.482 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.645 seconds (process running for 3.211)
+2026-03-16 00:13:32.191 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-16 00:13:32.192 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-16 00:13:32.194 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-03-16 00:13:32.291 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验失败, 响应401
+2026-03-16 00:14:09.937 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 24044 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src)
+2026-03-16 00:14:09.941 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-16 00:14:11.109 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-16 00:14:11.121 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:14:11.124 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-16 00:14:11.125 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 00:14:11.214 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1220 ms
+2026-03-16 00:14:12.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:14:12.059 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 00:14:12.066 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.523 seconds (process running for 3.242)
+2026-03-16 00:14:42.783 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-16 00:14:42.784 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-16 00:14:42.786 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-03-16 00:14:42.929 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-16 00:14:43.304 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d4bfd5c
+2026-03-16 00:14:43.307 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-16 00:14:43.386 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦
+java.lang.NullPointerException: Cannot invoke "com.example.pojo.Emp.getId()" because "empInfo" is null
+	at com.example.service.Impl.LoginServiceImpl.loginSystem(LoginServiceImpl.java:22)
+	at com.example.controller.LoginController.loginSystem(LoginController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-16 00:14:52.277 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzczNTkxMjkyLCJleHAiOjE3NzM2Nzc2OTJ9.Z1Z97SGlRq7Pp1TM6dQuJHkV_MdW6z8_eBfQUwdsqY4)
+2026-03-16 00:14:58.788 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:14:58.788 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:14:58.789 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:14:58.789 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:14:58.815 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:15:02.001 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:02.001 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:02.001 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:02.001 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:02.004 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:15:09.732 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:09.732 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:09.732 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:09.732 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:09.735 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:15:19.126 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:19.126 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:15:19.128 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:19.128 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:15:19.130 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:15:47.157 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验失败, 响应401
+2026-03-16 00:15:49.692 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验失败, 响应401
+2026-03-16 00:16:05.651 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:16:05.652 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:16:13.607 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:16:13.608 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:16:24.027 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验失败, 响应401
+2026-03-16 00:17:21.545 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验失败, 响应401
+2026-03-16 00:17:27.296 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:27.296 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:50.068 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:50.068 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:50.069 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:50.069 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:50.069 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:17:53.276 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:53.277 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:53.280 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-16 00:17:56.984 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:56.985 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:56.997 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633期, room=212, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2023-06-01T17:39:58, masterName=林冲, status=null)
+2026-03-16 00:17:57.047 [http-nio-8080-exec-3] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=2, operateTime=2026-03-16T00:17:57.027154500, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633期","room":"212","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,16,0,17,57,1454100],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=30, page=1, pageSize=10)
+2026-03-16 00:17:57.074 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:57.075 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:17:57.076 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:17:58.885 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:17:58.886 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:25:38.483 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 20428 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src)
+2026-03-16 00:25:38.487 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-16 00:25:39.698 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-16 00:25:39.709 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:25:39.710 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-16 00:25:39.711 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 00:25:39.770 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1214 ms
+2026-03-16 00:25:40.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:25:40.624 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 00:25:40.634 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.584 seconds (process running for 3.277)
+2026-03-16 00:26:41.737 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-16 00:26:41.738 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-16 00:26:41.740 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-03-16 00:26:41.885 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-16 00:26:42.244 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70e28ca7
+2026-03-16 00:26:42.247 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-16 00:26:42.418 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=23, username=ruanji, name=阮籍, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MjMsInVzZXJuYW1lIjoicnVhbmppIiwic3ViIjoiMjMiLCJpYXQiOjE3NzM1OTIwMDIsImV4cCI6MTc3MzY3ODQwMn0.qfinhuayVDeiCaw0ss7Jy-nguCESuv96mwoic4XEzsY)
+2026-03-16 00:26:51.473 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:26:51.473 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:26:51.474 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:26:51.474 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:26:51.491 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:26:53.163 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:26:53.163 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:26:53.166 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-根据id: 1查询
+2026-03-16 00:26:58.131 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:26:58.132 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:26:58.143 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-传入的参数: Clazz(id=1, name=JavaEE就业1633期, room=219, beginDate=2023-04-30, endDate=2023-06-29, masterId=10, subject=1, createTime=2023-06-01T17:08:23, updateTime=2026-03-16T00:17:57, masterName=林冲, status=null)
+2026-03-16 00:26:58.180 [http-nio-8080-exec-7] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:26:58.160717, className=com.example.controller.ClazzsController, methodName=modifyClass, methodParams=[{"id":1,"name":"JavaEE就业1633期","room":"219","beginDate":[2023,4,30],"endDate":[2023,6,29],"masterId":10,"subject":1,"createTime":[2023,6,1,17,8,23],"updateTime":[2026,3,16,0,26,58,145229000],"masterName":"林冲","status":null}], returnValue={"code":1,"msg":"success","data":null}, costTime=17, operateEmpName=null, page=1, pageSize=10)
+2026-03-16 00:26:58.205 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:26:58.205 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:26:58.207 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:27:01.653 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:27:01.654 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:27:19.755 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:27:19.755 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:27:46.033 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:27:46.033 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:27:46.033 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:27:46.034 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:27:46.046 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController-获取到的数据: [{name=初中, value=1}, {name=高中, value=4}, {name=大专, value=3}, {name=本科, value=8}, {name=硕士, value=3}]
+2026-03-16 00:27:46.047 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController-获取到的数据: StudentStat(clazzList=[JavaEE就业1633期, JavaEE就业165期, JavaEE就业166期, JavaEE就业167期, JavaEE就业183期, JavaEE就业196期, 前端就业90期, 大数据就业58期], dataList=[6, 0, 3, 0, 2, 0, 8, 0])
+2026-03-16 00:29:07.200 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:07.200 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:07.202 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:07.202 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:07.203 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:29:10.384 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:10.384 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:10.385 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:10.385 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:10.397 [http-nio-8080-exec-3] INFO  com.example.controller.StudentController-请求参数: StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2026-03-16 00:29:14.485 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:14.485 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:14.487 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:14.487 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:14.488 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:29:16.633 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:16.634 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:16.641 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:29:23.995 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:23.996 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:24.009 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController-新增部门数据: id=null, name=888
+2026-03-16 00:29:24.028 [http-nio-8080-exec-6] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:29:24.027742700, className=com.example.controller.DeptController, methodName=addDept, methodParams=[{"id":null,"name":"888","createTime":[2026,3,16,0,29,24,10398600],"updateTime":[2026,3,16,0,29,24,10398600]}], returnValue={"code":1,"msg":"success","data":null}, costTime=18, operateEmpName=null, page=1, pageSize=10)
+2026-03-16 00:29:24.049 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:24.049 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:29:24.051 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:29:26.780 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:29:26.780 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:30:09.862 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:30:09.862 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:30:09.863 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:30:09.863 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:30:09.864 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:30:17.751 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:30:17.751 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:30:17.752 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:30:17.752 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:30:17.753 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:30:57.346 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:30:57.348 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:37:42.203 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 4072 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src)
+2026-03-16 00:37:42.207 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-03-16 00:37:43.323 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-03-16 00:37:43.335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:37:43.337 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-03-16 00:37:43.338 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 00:37:43.388 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1134 ms
+2026-03-16 00:37:44.181 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 00:37:44.209 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 00:37:44.215 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.381 seconds (process running for 3.075)
+2026-03-16 00:38:07.296 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-16 00:38:07.297 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-03-16 00:38:07.298 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-03-16 00:38:07.415 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:38:07.417 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:38:07.562 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-03-16 00:38:07.945 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20700802
+2026-03-16 00:38:07.949 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-03-16 00:38:30.836 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:38:30.836 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:38:30.837 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:38:30.837 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:38:30.863 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-03-16 00:38:33.531 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:38:33.532 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:38:39.656 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:38:39.656 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:17.026 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:17.026 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:17.033 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:39:18.413 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:18.413 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:18.413 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:18.413 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:18.413 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:39:18.417 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:39:20.642 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:20.643 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:20.652 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController-根据id: 36查询员工信息
+2026-03-16 00:39:26.137 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:26.137 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:26.213 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController-修改员工: Emp(id=36, username=Tom, password=123456, name=汤姆, gender=1, phone=12345678900, job=1, salary=5000, image=, entryDate=2015-01-01, deptId=7, createTime=2015-01-01T00:00, updateTime=2026-03-12T04:51:49, deptName=null, exprList=[EmpExpr(id=62, empId=36, begin=2011-12-01, end=2015-05-15, company=百度, job=架构师), EmpExpr(id=63, empId=36, begin=2016-01-01, end=2018-01-15, company=美团, job=后端开发工程师), EmpExpr(id=64, empId=36, begin=2026-03-01, end=2026-04-25, company=腾讯, job=云服务)])
+2026-03-16 00:39:26.301 [http-nio-8080-exec-2] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:39:26.259757600, className=com.example.controller.EmpController, methodName=modifyEmpinfo, methodParams=[{"id":36,"username":"Tom","password":"123456","name":"汤姆","gender":1,"phone":"12345678900","job":1,"salary":5000,"image":"","entryDate":[2015,1,1],"deptId":7,"createTime":[2015,1,1,0,0],"updateTime":[2026,3,16,0,39,26,246059900],"deptName":null,"exprList":[{"id":62,"empId":36,"begin":[2011,12,1],"end":[2015,5,15],"company":"百度","job":"架构师"},{"id":63,"empId":36,"begin":[2016,1,1],"end":[2018,1,15],"company":"美团","job":"后端开发工程师"},{"id":64,"empId":36,"begin":[2026,3,1],"end":[2026,4,25],"company":"腾讯","job":"云服务"}]}], returnValue={"code":1,"msg":"success","data":null}, costTime=47, operateEmpName=null)
+2026-03-16 00:39:26.345 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:26.347 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:26.352 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:39:28.503 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:28.503 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:28.504 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-根据id: 36查询员工信息
+2026-03-16 00:39:34.852 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:34.852 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:34.854 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController-修改员工: Emp(id=36, username=Tom, password=123456, name=汤姆, gender=1, phone=12345678900, job=1, salary=5000, image=, entryDate=2015-01-01, deptId=10, createTime=2015-01-01T00:00, updateTime=2026-03-16T00:39:26, deptName=null, exprList=[EmpExpr(id=86, empId=36, begin=2011-12-01, end=2015-05-15, company=百度, job=架构师), EmpExpr(id=87, empId=36, begin=2016-01-01, end=2018-01-15, company=美团, job=后端开发工程师), EmpExpr(id=88, empId=36, begin=2026-03-01, end=2026-04-25, company=腾讯, job=云服务)])
+2026-03-16 00:39:34.880 [http-nio-8080-exec-7] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:39:34.880907700, className=com.example.controller.EmpController, methodName=modifyEmpinfo, methodParams=[{"id":36,"username":"Tom","password":"123456","name":"汤姆","gender":1,"phone":"12345678900","job":1,"salary":5000,"image":"","entryDate":[2015,1,1],"deptId":10,"createTime":[2015,1,1,0,0],"updateTime":[2026,3,16,0,39,34,873078400],"deptName":null,"exprList":[{"id":86,"empId":36,"begin":[2011,12,1],"end":[2015,5,15],"company":"百度","job":"架构师"},{"id":87,"empId":36,"begin":[2016,1,1],"end":[2018,1,15],"company":"美团","job":"后端开发工程师"},{"id":88,"empId":36,"begin":[2026,3,1],"end":[2026,4,25],"company":"腾讯","job":"云服务"}]}], returnValue={"code":1,"msg":"success","data":null}, costTime=26, operateEmpName=null)
+2026-03-16 00:39:34.901 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:34.902 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:34.904 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:39:38.347 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:38.348 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:38.348 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController-根据id: 30查询员工信息
+2026-03-16 00:39:43.307 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:43.308 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:43.308 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController-修改员工: Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:31, deptName=null, exprList=[])
+2026-03-16 00:39:43.327 [http-nio-8080-exec-5] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:39:43.326519100, className=com.example.controller.EmpController, methodName=modifyEmpinfo, methodParams=[{"id":30,"username":"liyun","password":"123456","name":"李云","gender":1,"phone":"13309090030","job":2,"salary":null,"image":"https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg","entryDate":[2020,3,1],"deptId":3,"createTime":[2023,10,20,16,35,33],"updateTime":[2026,3,16,0,39,43,310577900],"deptName":null,"exprList":[]}], returnValue={"code":1,"msg":"success","data":null}, costTime=18, operateEmpName=null)
+2026-03-16 00:39:43.349 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:43.350 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:43.353 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:39:46.601 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:46.602 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:57.914 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:57.914 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:59.455 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:59.457 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:39:59.457 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:59.457 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:39:59.457 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:39:59.458 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:40:03.393 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:03.394 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:03.394 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController-根据id: 30查询员工信息
+2026-03-16 00:40:05.478 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:05.478 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:05.479 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController-根据id: 30查询员工信息
+2026-03-16 00:40:09.807 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:09.807 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:09.809 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController-修改员工: Emp(id=30, username=liyu, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2026-03-16T00:39:43, deptName=null, exprList=[])
+2026-03-16 00:40:09.829 [http-nio-8080-exec-6] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:40:09.828014600, className=com.example.controller.EmpController, methodName=modifyEmpinfo, methodParams=[{"id":30,"username":"liyu","password":"123456","name":"李云","gender":1,"phone":"13309090030","job":2,"salary":null,"image":"https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg","entryDate":[2020,3,1],"deptId":3,"createTime":[2023,10,20,16,35,33],"updateTime":[2026,3,16,0,40,9,811418100],"deptName":null,"exprList":[]}], returnValue={"code":1,"msg":"success","data":null}, costTime=19, operateEmpName=null)
+2026-03-16 00:40:09.865 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:09.867 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:09.870 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:40:10.761 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:10.762 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:10.762 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController-根据id: 30查询员工信息
+2026-03-16 00:40:13.458 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:13.458 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:13.460 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController-修改员工: Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2026-03-16T00:40:10, deptName=null, exprList=[])
+2026-03-16 00:40:13.471 [http-nio-8080-exec-10] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=23, operateTime=2026-03-16T00:40:13.471087300, className=com.example.controller.EmpController, methodName=modifyEmpinfo, methodParams=[{"id":30,"username":"liyun","password":"123456","name":"李云","gender":1,"phone":"13309090030","job":2,"salary":null,"image":"https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg","entryDate":[2020,3,1],"deptId":3,"createTime":[2023,10,20,16,35,33],"updateTime":[2026,3,16,0,40,13,462592100],"deptName":null,"exprList":[]}], returnValue={"code":1,"msg":"success","data":null}, costTime=11, operateEmpName=null)
+2026-03-16 00:40:13.497 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:13.498 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:13.499 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-16 00:40:14.524 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:14.526 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:40:23.700 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:23, 并将其存入ThreadLocal
+2026-03-16 00:40:23.701 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:24.206 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=2, username=songjiang, name=宋江, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJzb25namlhbmciLCJzdWIiOiIyIiwiaWF0IjoxNzczNTkzMDA0LCJleHAiOjE3NzM2Nzk0MDR9._Jop0xaf94lWpVDpRI_6cJvDhxQdORdmYdUBFv2YMSQ)
+2026-03-16 00:43:26.337 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:43:26.337 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:26.337 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:43:27.479 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:43:27.480 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:27.480 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController-根据ID查询部门: 11
+2026-03-16 00:43:30.447 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:43:30.447 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:30.453 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController-将ID为11的部门的部门名修改为: 666
+2026-03-16 00:43:30.463 [http-nio-8080-exec-6] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=2, operateTime=2026-03-16T00:43:30.461892200, className=com.example.controller.DeptController, methodName=updateDept, methodParams=[{"id":11,"name":"666","createTime":[2026,3,16,0,29,24],"updateTime":[2026,3,16,0,43,30,453296500]}], returnValue={"code":1,"msg":"success","data":null}, costTime=8, operateEmpName=null)
+2026-03-16 00:43:30.481 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:43:30.481 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:30.482 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:43:32.367 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:2, 并将其存入ThreadLocal
+2026-03-16 00:43:32.367 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:48.061 [http-nio-8080-exec-10] INFO  com.example.controller.LoginController-响应数据: LoginInfo(id=13, username=yangzhi, name=杨志, token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MTMsInVzZXJuYW1lIjoieWFuZ3poaSIsInN1YiI6IjEzIiwiaWF0IjoxNzczNTkzMDI4LCJleHAiOjE3NzM2Nzk0Mjh9.miI6iac47IGVQMip1A5t3H_4rKBIGol-65zs0n6dX9w)
+2026-03-16 00:43:53.920 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:43:53.922 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:56.651 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:43:56.652 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:56.652 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:43:57.750 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:43:57.750 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:43:57.751 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController-根据ID查询部门: 11
+2026-03-16 00:44:03.472 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:44:03.473 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:44:03.474 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController-将ID为11的部门的部门名修改为: 大麦不
+2026-03-16 00:44:03.488 [http-nio-8080-exec-2] INFO  com.example.aop.OperateLogAspect-操作日志: OperateLog(id=null, operateEmpId=13, operateTime=2026-03-16T00:44:03.488001900, className=com.example.controller.DeptController, methodName=updateDept, methodParams=[{"id":11,"name":"大麦不","createTime":[2026,3,16,0,29,24],"updateTime":[2026,3,16,0,44,3,474120100]}], returnValue={"code":1,"msg":"success","data":null}, costTime=14, operateEmpName=null)
+2026-03-16 00:44:03.505 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:44:03.505 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:44:03.505 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController-查询全部部门数据
+2026-03-16 00:44:04.398 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:44:04.399 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:44:46.526 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:44:46.526 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-当前登录员工id:13, 并将其存入ThreadLocal
+2026-03-16 00:44:46.527 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:44:46.527 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌校验通过, 放行
+2026-03-16 00:44:46.528 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzsController-请求参数: ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
