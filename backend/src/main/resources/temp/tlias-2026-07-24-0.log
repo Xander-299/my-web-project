@@ -1,0 +1,327 @@
+2026-07-24 15:26:15.865 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 6980 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 15:26:15.867 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 15:26:17.029 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 15:26:17.051 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 15:26:17.054 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 15:26:17.057 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 15:26:17.122 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1211 ms
+2026-07-24 15:26:18.007 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 15:26:18.031 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 15:26:18.037 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.491 seconds (process running for 3.138)
+2026-07-24 15:26:41.751 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-24 15:26:41.751 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-07-24 15:26:41.754 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-07-24 15:26:41.777 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 15:26:43.517 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 15:26:44.027 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:03:19.278 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 3768 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 17:03:19.280 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 17:03:20.409 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 17:03:20.421 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:03:20.424 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 17:03:20.424 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 17:03:20.517 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1188 ms
+2026-07-24 17:03:21.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:03:21.583 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 17:03:21.591 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.629 seconds (process running for 3.241)
+2026-07-24 17:03:28.746 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-24 17:03:28.746 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-07-24 17:03:28.748 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-07-24 17:03:28.775 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:04:42.914 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:05:38.752 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 9640 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 17:05:38.755 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 17:05:39.850 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 17:05:39.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:05:39.862 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 17:05:39.862 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 17:05:39.917 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1108 ms
+2026-07-24 17:05:40.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:05:40.774 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 17:05:40.780 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.373 seconds (process running for 3.037)
+2026-07-24 17:05:45.695 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-24 17:05:45.695 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-07-24 17:05:45.697 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-07-24 17:05:45.715 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:05:53.851 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:11:15.904 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 3720 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 17:11:15.908 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 17:11:17.057 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 17:11:17.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:11:17.070 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 17:11:17.070 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 17:11:17.131 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1167 ms
+2026-07-24 17:11:17.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:11:17.955 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 17:11:17.963 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.408 seconds (process running for 2.992)
+2026-07-24 17:11:21.357 [http-nio-8080-exec-1] INFO  org.apache.coyote.http11.Http11Processor-Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xf80x010x000x060xf40x030x030xb40x8a0xddI0xec_e0x06b0xa4x0xa50x0bG0x0e0xe4@0x1e0xf40x110xdfXN-KS0x990x800xc2~0x930xec ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-07-24 17:11:21.357 [http-nio-8080-exec-5] INFO  org.apache.coyote.http11.Http11Processor-Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xf80x010x000x060xf40x030x03o.0x8e0xe70xf7/0xb80xd70x970x9e^@0xcae{0xfe*.0x0fzh0x830xc80xdf0xc80x8ev0x0eD0x15z, ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-07-24 17:11:55.437 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-24 17:11:55.439 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-07-24 17:11:55.441 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-07-24 17:11:55.467 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenInterceptor-令牌为空, 响应401
+2026-07-24 17:22:27.831 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 10660 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 17:22:27.834 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 17:22:28.986 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 17:22:29.008 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:22:29.011 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 17:22:29.011 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 17:22:29.056 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1169 ms
+2026-07-24 17:22:29.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:22:29.898 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 17:22:29.908 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.414 seconds (process running for 3.001)
+2026-07-24 17:27:04.439 [main] INFO  com.example.WebDevelopApplication-Starting WebDevelopApplication using Java 25.0.1 with PID 1020 (D:\Study materials\C++ Test\Java\src\demo4\web-develop\target\classes started by panda in D:\Study materials\C++ Test\Java\src\demo4\web-develop)
+2026-07-24 17:27:04.442 [main] INFO  com.example.WebDevelopApplication-No active profile set, falling back to 1 default profile: "default"
+2026-07-24 17:27:05.560 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-07-24 17:27:05.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:27:05.574 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-07-24 17:27:05.574 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-07-24 17:27:05.635 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1139 ms
+2026-07-24 17:27:06.517 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-07-24 17:27:06.547 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-07-24 17:27:06.555 [main] INFO  com.example.WebDevelopApplication-Started WebDevelopApplication in 2.45 seconds (process running for 3.037)
+2026-07-24 17:27:16.692 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-24 17:27:16.692 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-07-24 17:27:16.695 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-07-24 17:27:16.890 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-07-24 17:27:18.341 [http-nio-8080-exec-6] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mapper/LoginMapper.xml
+### The error may involve com.example.mapper.LoginMapper.loginSystem
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:101)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy76.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.loginSystem(Unknown Source)
+	at com.example.service.Impl.LoginServiceImpl.loginSystem(LoginServiceImpl.java:21)
+	at com.example.controller.LoginController.loginSystem(LoginController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mapper/LoginMapper.xml
+### The error may involve com.example.mapper.LoginMapper.loginSystem
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:156)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 51 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy112.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	... 57 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:840)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	... 69 common frames omitted
+2026-07-24 17:27:59.110 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-07-24 17:28:00.139 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler-程序出错啦~
+org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mapper/LoginMapper.xml
+### The error may involve com.example.mapper.LoginMapper.loginSystem
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:101)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy76.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.loginSystem(Unknown Source)
+	at com.example.service.Impl.LoginServiceImpl.loginSystem(LoginServiceImpl.java:21)
+	at com.example.controller.LoginController.loginSystem(LoginController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mapper/LoginMapper.xml
+### The error may involve com.example.mapper.LoginMapper.loginSystem
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:156)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 51 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy112.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	... 57 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:840)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	... 69 common frames omitted
