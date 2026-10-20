@@ -1,0 +1,65 @@
+#!/bin/sh
+#
+# pre-commit hook
+#
+# 安装（Windows / Git Bash）：
+#   git config core.hooksPath .githooks
+#
+# 检查项：
+#   1. 暂存区中是否混入密钥、口令
+#   2. 是否误提交构建产物或依赖目录
+#
+# 如需跳过：git commit --no-verify（不推荐）
+
+set -e
+
+STAGED=$(git diff --staged --name-only --diff-filter=ACMR)
+
+if [ -z "$STAGED" ]; then
+    exit 0
+fi
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+fail() {
+    echo "${RED}✗ 提交被拒绝：$1${NC}"
+    exit 1
+}
+
+# ---------------------------------------------------------------------
+# 1. 密钥扫描
+# ---------------------------------------------------------------------
+# 只检查新增行（+），避免历史代码中已存在的匹配项持续阻塞提交。
+SECRET_PATTERN='(password|passwd|secret|api[_-]?key|access[_-]?key|token)[[:space:]]*[:=][[:space:]]*["'"'"']?[A-Za-z0-9/+_-]{12,}'
+
+HITS=$(git diff --staged -U0 | grep -E "^\+" | grep -vE "^\+\+\+" | grep -iE "$SECRET_PATTERN" || true)
+
+if [ -n "$HITS" ]; then
+    echo "${YELLOW}检测到疑似硬编码密钥：${NC}"
+    echo "$HITS" | head -10
+    echo ""
+    fail "请改用环境变量注入，或在配置模板中以占位符形式书写"
+fi
+
+# ---------------------------------------------------------------------
+# 2. 构建产物检查
+# ---------------------------------------------------------------------
+FORBIDDEN='^(backend/target/|node_modules/|frontend/dist/|\.env$|.*\.log$|.*\.pid$)'
+
+VIOLATIONS=$(echo "$STAGED" | grep -E "$FORBIDDEN" || true)
+
+if [ -n "$VIOLATIONS" ]; then
+    echo "${YELLOW}检测到不应提交的文件：${NC}"
+    echo "$VIOLATIONS" | head -10
+    echo ""
+    fail "请确认 .gitignore 规则是否生效"
+fi
+
+# ---------------------------------------------------------------------
+# 3. 提示信息
+# ---------------------------------------------------------------------
+echo "${GREEN}✓${NC} pre-commit 检查通过（密钥扫描 / 构建产物检查）"
+exit 0
