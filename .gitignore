@@ -1,0 +1,61 @@
+# ===== 构建产物 =====
+backend/target/
+target/
+*.class
+*.jar
+*.war
+
+# ===== 依赖 =====
+node_modules/
+frontend/dist/
+dist/
+*.tgz
+
+# ===== 运行时日志与临时文件 =====
+*.log
+logs/
+backend/src/main/resources/temp/
+temp/
+*.pid
+nginx.pid
+
+# ===== nginx 发行版中的二进制与运行产物 =====
+deploy/nginx/nginx.exe
+deploy/nginx/logs/
+deploy/nginx/html/assets/
+
+# ===== 本地配置与密钥（不提交）=====
+application-local.yaml
+application-local.yml
+.env
+.env.local
+*.pem
+*.key
+src/main/resources/application-*.local.yaml
+
+# ===== 上传文件 =====
+backend/uploads/
+uploads/
+D:/image/
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 其他 =====
+*.log
+*.pid
+*.bak
+*.tmp
