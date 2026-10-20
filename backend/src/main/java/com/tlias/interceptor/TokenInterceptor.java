@@ -1,6 +1,7 @@
 package com.tlias.interceptor;
 
 import org.jspecify.annotations.Nullable;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -16,6 +17,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Component
 public class TokenInterceptor implements HandlerInterceptor{
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
@@ -39,7 +44,7 @@ public class TokenInterceptor implements HandlerInterceptor{
         }
         //5.如果token存在，校验令牌，如果校验失败 -> 返回错误信息(响应401错误码)
         try {
-            Claims claims = JwtUtil.parseToken(token);
+            Claims claims = jwtUtil.parseToken(token);
             Integer empId = Integer.valueOf(claims.get("id").toString());
             CurrentHolder.setCurrentId(empId);
             log.info("当前登录员工id:{}, 并将其存入ThreadLocal",empId);

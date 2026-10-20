@@ -13,12 +13,14 @@ import com.tlias.interceptor.TokenInterceptor;
 
 public class WebConfig implements WebMvcConfigurer {
     @Autowired
-    // private DemoInterceptor demoInerceptor;
     private TokenInterceptor tokenInterceptor;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(tokenInterceptor).addPathPatterns("/**").excludePathPatterns("/login"); // 拦截除了/login以外的所有请求
+        // 拦截除 /login 外的所有请求，TokenInterceptor 内负责校验 JWT
+        registry.addInterceptor(tokenInterceptor)
+                .addPathPatterns("/**")
+                .excludePathPatterns("/login");
     }
 
 }
