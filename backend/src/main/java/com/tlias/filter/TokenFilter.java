@@ -2,6 +2,9 @@ package com.tlias.filter;
 
 import java.io.IOException;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import com.tlias.utils.JwtUtil;
 
 import jakarta.servlet.Filter;
@@ -15,8 +18,14 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Component
 //@WebFilter(urlPatterns = "/*")
-public class TokenFilter implements Filter {@Override
+public class TokenFilter implements Filter {
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filerChain)
             throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
@@ -39,7 +48,7 @@ public class TokenFilter implements Filter {@Override
         }
         //5.如果token存在，校验令牌，如果校验失败 -> 返回错误信息(响应401错误码)
         try {
-            JwtUtil.parseToken(token);
+            jwtUtil.parseToken(token);
         } catch (Exception e) {
             log.info("令牌校验失败, 响应401");
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
