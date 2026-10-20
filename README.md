@@ -78,7 +78,9 @@ my-web-project/
 ├── README.md                   # 项目说明（本文档）
 ├── CHANGELOG.md                # 变更记录
 ├── .gitignore                  # 统一忽略构建产物、日志、密钥
-├── .githooks/pre-commit        # 提交前自动检查：密钥扫描 / 构建产物拦截
+├── .githooks/                  # 提交前守卫（凭据扫描 / 构建产物拦截）
+│   ├── guard-credentials.sh    # 守卫逻辑
+│   └── install-hooks.sh        # 安装脚本，生成 .git/hooks/pre-commit
 ├── .github/                    # PR 与 Issue 模板
 ├── sql/
 │   └── init.sql                # 建库建表 + 初始化数据
@@ -377,16 +379,22 @@ git branch -d feature/student-violation
 
 ### 提交前自动检查
 
-仓库内置 pre-commit hook，已通过 `core.hooksPath` 启用：
+仓库内置 pre-commit 守卫脚本，负责在提交前自动扫描凭据：
 
-- 扫描新增行中的明文口令 / 密钥（`password` `secret` `api_key` 等）
+- 命中 `password` / `secret` / `api_key` / `access-key-id` 等模式且值非
+  占位形式时，**拒绝提交**
+- 占位符写法（`${VAR}`、`$VAR`、`<placeholder>`、`your_password_here`、
+  `changeme`、`xxxx...`）一律放行，不影响开源配置的正常提交
 - 拦截构建产物、日志、`.env` 等不应入库的文件
 
-若 hook 未生效，手动启用：
+安装（克隆后执行一次）：
 
 ```bash
-git config core.hooksPath .githooks
+sh .githooks/install-hooks.sh
 ```
+
+安装后会写入 `.git/hooks/pre-commit`，之后每次 `git commit` 自动生效。
+也可单独运行 `sh .githooks/guard-credentials.sh` 手动检查当前暂存内容。
 
 ### 版本与发布
 
