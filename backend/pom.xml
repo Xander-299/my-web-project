@@ -9,11 +9,11 @@
 		
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>web-develop</artifactId>
+	<groupId>com.tlias</groupId>
+	<artifactId>tlias-admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>web-develop</name>
-	<description>Demo project for Spring Boot</description>
+	<name>tlias-admin</name>
+	<description>Tlias 智能学习辅助系统 - 后端服务</description>
 	<url/>
 	<licenses>
 		<license/>

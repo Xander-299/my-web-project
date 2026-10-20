@@ -1,6 +1,6 @@
 spring:
   application:
-    name: web-mybatis
+    name: tlias-admin
   datasource:
     url: jdbc:mysql://localhost:3306/tlias?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
@@ -17,8 +17,8 @@ mybatis:
     configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
       map-underscore-to-camel-case: true
+    mapper-locations: classpath*:com/tlias/mapper/*.xml
 #配置日志
 logging:
   level:
     root: info
-    
