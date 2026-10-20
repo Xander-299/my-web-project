@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tlias.mapper.ReportMapper">
+    <select id="getEmpGenderData" resultType="map">
+      SELECT 
+      IF (gender = 1,'男性员工','女性员工') AS name,
+      COUNT(*) AS value
+      FROM tlias.emp GROUP BY gender
+    </select>
+    <select id="getEmpJobData" resultType="map">
+      SELECT
+      (CASE
+      WHEN job = 1 THEN '班主任'
+      WHEN job = 2 THEN '讲师'
+      WHEN job = 3 THEN '学工主管'
+      WHEN job = 4 THEN '教研主管'
+      WHEN job = 5 THEN '咨询师'
+      ELSE '其它' END) AS pos,
+      COUNT(*) AS num
+      FROM tlias.emp GROUP BY job ORDER BY num
+    </select>
+    <select id="getStudentDegreeData" resultType="map">
+      SELECT 
+      (CASE
+        WHEN degree = 1 THEN '初中'
+        WHEN degree = 2 THEN '高中'
+        WHEN degree = 3 THEN '大专'
+        WHEN degree = 4 THEN '本科'
+        WHEN degree = 5 THEN '硕士'
+        WHEN degree = 6 THEN '博士'
+        END) AS name,
+        COUNT(*) AS value
+        FROM tlias.student
+        GROUP BY degree
+    </select>
+    <select id="getStudentCountData">
+      SELECT c.name,
+      IF (ISNULL(t.data),0,t.data) AS population
+      FROM tlias.clazz AS c LEFT OUTER JOIN 
+      (SELECT s.clazz_id,COUNT(0) AS data FROM tlias.student AS s GROUP BY s.clazz_id) AS t
+      ON c.id = t.clazz_id;
+    </select>
+</mapper>
