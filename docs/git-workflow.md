@@ -88,7 +88,12 @@ cd frontend && npm run build                  # 4. 前端构建通过
 cd frontend && npm run lint                   # 5. 前端规范检查
 ```
 
-仓库已配置 pre-commit hook（见 `.githooks/pre-commit`），前两步会自动执行。
+仓库内置 pre-commit 守卫（见 `.githooks/guard-credentials.sh`），前两步会自动执行。
+克隆后需安装一次：
+
+```bash
+sh .githooks/install-hooks.sh
+```
 
 ---
 
