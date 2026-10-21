@@ -409,12 +409,15 @@ npm run build
 - 命中 `password` / `secret` / `api_key` / `access-key-id` 等模式且值**非占位形式**时拒绝提交；
 - 占位符写法（`${VAR}`、`$VAR`、`<placeholder>`、`your_password_here`、`changeme`、
   `xxxx...`）一律放行，不影响开源配置正常提交；
-- 拦截 `target/`、`dist/`、`logs/`、`.env` 等不应入库的文件。
+- 拦截 `backend/target/`、`node_modules/`、`frontend/dist/`、`.env`、`*.log`、`*.pid`。
 
 ```bash
 sh .githooks/install-hooks.sh      # 克隆后执行一次
 sh .githooks/guard-credentials.sh  # 也可单独手动检查暂存内容
 ```
+
+> 每种写法的放行 / 拦截示例见
+> [`docs/git-workflow.md`](docs/git-workflow.md#pre-commit-守卫提交前门禁)。
 
 **提交规范**：`<type>: <简短描述>`，`type` 取 `feat` `fix` `refactor` `test` `docs`
 `chore` `perf` `revert`；**一次提交只做一件事**（格式化与行为分开、重构与新功能分开）。

@@ -78,24 +78,88 @@ main ──●──●──●──●──●──●──●──●─
 把「格式化改动」和「行为改动」分开提交；把「重构」和「新功能」分开提交。
 这样每一笔提交都能被独立理解和回滚。
 
-### 提交前检查
+### 手动检查
+
+提交前想自己核一遍时，按顺序执行：
 
 ```bash
-git diff --staged                              # 1. 确认改动内容
-git diff --staged | grep -iE "password|secret|token|api_key"   # 2. 确认无密钥泄漏
-cd backend && mvn clean package -DskipTests   # 3. 后端构建通过
-cd frontend && npm run build                  # 4. 前端构建通过
-cd frontend && npm run lint                   # 5. 前端规范检查
+git diff --staged                                             # 1. 确认改动内容
+git diff --staged | grep -iE "password|secret|token|api_key"  # 2. 确认无密钥泄漏
+cd backend && mvn clean package -DskipTests                   # 3. 后端构建通过
+cd frontend && npm run build                                  # 4. 前端构建通过
+cd frontend && npm run lint                                   # 5. 前端规范检查
 ```
 
-仓库内置 pre-commit 守卫（见 `.githooks/guard-credentials.sh`），前两步会自动执行。
-克隆后需安装一次：
-
-```bash
-sh .githooks/install-hooks.sh
-```
+第 1、2 步已由 pre-commit 守卫自动完成（见下一节），这里保留是为了在
+「不想提交、只想自查」时也能跑。
 
 ---
+
+## pre-commit 守卫（提交前门禁）
+
+守卫脚本为 `.githooks/guard-credentials.sh`，负责在**暂存区**上做两道检查：
+凭据扫描与构建产物拦截。不通过则 `git commit` 直接失败。
+
+### 安装与手动执行
+
+```bash
+sh .githooks/install-hooks.sh      # 克隆后执行一次，写入 .git/hooks/pre-commit
+sh .githooks/guard-credentials.sh  # 也可单独跑，只检查当前暂存内容
+```
+
+> 仓库里**不存放** `.git/hooks/pre-commit` 本体（那是本地文件、不会被版本控制），
+> 只存放生成它的 `install-hooks.sh`。换机器 / 重新克隆后要重新执行一次。
+
+### 扫描范围
+
+只看 **staged diff 中新增的行**（`git diff --staged -U0` 里以 `+` 开头的行）。
+未 `git add` 的改动不参与扫描 —— 所以「先 add 再检查」是有效顺序。
+
+### 规则一：凭据扫描
+
+命中形如 `key = value` / `key: value` 且**值长度 ≥ 8** 的赋值时，再用占位符白名单排除
+明显的示例写法。常见结果：
+
+| 写法 | 结果 | 说明 |
+| --- | --- | --- |
+| `password: ${DB_PASSWORD}` | ✅ 放行 | 环境变量占位 |
+| `secret: $JWT_SECRET` | ✅ 放行 | 同上，大写字母数字下划线 |
+| `password: <你的密码>` | ✅ 放行 | 尖括号占位，**推荐中文占位符用这种** |
+| `password: your_password_here` | ✅ 放行 | 白名单词（`your` / `example` / `change_me` 等） |
+| `password: yourpassword` | ❌ 拦截 | `your` 后紧接字母，不构成独立词 |
+| `password: 你的MySQL密码` | ❌ 拦截 | 中文占位符不在白名单，改成 `<你的 MySQL 密码>` |
+| 8 位以上、非占位形式的真实口令 | ❌ 拦截 | **本文不提供字面样本** —— 守卫无法区分「示例」与「真凭据」 |
+
+白名单原语：`${...}`、`$UPPER_CASE`、`<...>`、独立出现的
+`your|my|example|sample|placeholder|dummy|fake|test|default|change_me|replace_me|changeme|todo`、
+`xxx…`（3 个以上）、`***`。
+
+> ⚠️ **已知局限**：值短于 8 个字符的赋值不会被命中（例如 6 位纯数字口令）。
+> 守卫是「防手滑」的兜底，不是安全扫描器 —— 真正的凭据仍然只能靠不放进来。
+
+### 规则二：构建产物拦截
+
+暂存区出现以下路径时直接拒绝：
+
+```
+backend/target/    node_modules/    frontend/dist/
+*.env（.env 文件）    *.log    *.pid
+```
+
+命中通常意味着 `.gitignore` 失效或被 `git add -f` 强制加入。**不要用 `-f` 绕过**，
+先修 `.gitignore`。
+
+### 跳过守卫
+
+```bash
+git commit --no-verify
+```
+
+**不推荐**。仅在确认命中项是误报（例如文档里必须出现真实格式的示例）时使用，
+用完应在提交说明里写清原因。
+
+---
+
 
 ## 拉取请求（PR）
 
